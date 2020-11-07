@@ -3,13 +3,8 @@
 # MCU name
 MCU = atmega32u4
 
-# Uncomment the correct bootloader for the MCU firmware being compiled/flashed:
-
-# ProMicro/left/slave side uses caterina bootloader
-# Elite-C/right/master side uses dfu bootloader
-
+# ProMicro uses caterina bootloader
 BOOTLOADER = caterina
-#BOOTLOADER = atmel-dfu
 
 SPLIT_KEYBOARD = yes
 DEFAULT_FOLDER = dactyl_manuform/rev0
