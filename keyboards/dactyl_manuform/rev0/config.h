@@ -18,10 +18,10 @@
 
 // Uncomment the correct MATRIX_COL_PINS for the MCU firmware being compiled/flashed:
 
-// Unflipped columns for promicro/left/slave side controller:
+// Unflipped columns for left controller:
 #define MATRIX_COL_PINS { F4, F5, F6, F7, B1, B3 }
 
-// Flipped columns for elite-c/right/master side controller:
+// Flipped columns right controller:
 //#define MATRIX_COL_PINS { B3, B1, F7, F6, F5, F4 }
 
 // Diode direction
