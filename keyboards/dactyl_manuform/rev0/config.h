@@ -2,8 +2,8 @@
 
 /* USB Device descriptor parameter */
 
-#define VENDOR_ID       0xcad7 // rand
-#define PRODUCT_ID      0x2be3 // rand
+#define VENDOR_ID       0xab93 // rand
+#define PRODUCT_ID      0x52b5 // rand
 #define DEVICE_VER      0x0000
 #define MANUFACTURER    jp
 #define PRODUCT         dactyl_manuform

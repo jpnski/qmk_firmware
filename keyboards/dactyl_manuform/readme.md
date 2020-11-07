@@ -1,7 +1,7 @@
 ## Dactyl Manuform Split Keyboard
 ____
 ##### Pro Micro Pinout:
-* Diode direction: column to row
+* Diode direction: row to col
 * Column 0 = ESC key column
 * Row 0 = QWERTY row
 ~~~
