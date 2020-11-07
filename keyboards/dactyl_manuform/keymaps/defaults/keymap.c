@@ -30,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [base] = LAYOUT_4x12( 
     KC_TAB,   KC_Q,    KC_W,     KC_E,      KC_R,    KC_T,                           KC_Y,           KC_U,      KC_I,     KC_O,     KC_P,     KC_BSPC,\
-    KC_SFT,   KC_A,    KC_S,     KC_D,      KC_F,    KC_G,                           KC_H,           KC_J,      KC_K,     KC_L,     KC_SCLN,  KC_QUOT,\
+    KC_RSFT,  KC_A,    KC_S,     KC_D,      KC_F,    KC_G,                           KC_H,           KC_J,      KC_K,     KC_L,     KC_SCLN,  KC_QUOT,\
     KC_LCTL,  KC_Z,    KC_X,     KC_C,      KC_V,    KC_B,                           KC_N,           KC_M,      KC_COMM,  KC_DOT,   KC_SLSH,  KC_ENT ,\
                                             KC_LGUI, KC_LALT, KC_SPC, LT(1,KC_TRNS), LT(2,KC_TRNS),  LT(3,KC_TRNS) \
 ),
@@ -90,7 +90,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [layer3] = LAYOUT_4x12( 
     KC_TILD,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,                      KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,\
     KC_TRNS,  KC_PGDN,  KC_PGUP,  KC_HOME,  KC_END,   KC_TRNS,                      KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_LCBR,  KC_RCBR,  KC_TRNS,\
-    KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,                      KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_RST, \
+    KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,                      KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  RESET, \
                                             KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS \
 )
 
