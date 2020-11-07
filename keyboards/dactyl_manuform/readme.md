@@ -19,10 +19,11 @@ r3 : D4            c3 : F7
 
 ### Compiling:
 ~~~
-$ make dactyl_manuform:default
+$ make dactyl_manuform
 ~~~
 
 ### Flashing:
 ~~~
-$ avrdude -p atmega32u4 -P /dev/ttyACM0 -c avr109 flash:w:dactyl_manuform_rev0_default.hex
+$ avrdude -p atmega32u4 -P /dev/ttyACM0 -c avr109 flash:w:dactyl_manuform_right.hex
+$ avrdude -p atmega32u4 -P /dev/ttyACM0 -c avr109 flash:w:dactyl_manuform_left.hex
 ~~~
